@@ -1,7 +1,7 @@
 import socket
 
 
-def receive_all(connection, buffer_size=4):
+def receive_all(connection, buffer_size=4096):
     result = b''
     reading = True
     while reading:
